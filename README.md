@@ -9,6 +9,7 @@ This project is divided into several stages:
 Data Cleaning:
 - Handled missing data in the Emp_length and Rate columns using median imputation to avoid biases caused by outliers.
 - Removed duplicate rows and handled invalid or extreme outlier values in Age and Emp_length.
+  
 Visualization:
 - Created box plots and count plots to identify outliers and understand distributions.
 - Categorized customers into Age_Group bins to facilitate group-based analysis.
