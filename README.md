@@ -14,16 +14,19 @@ Visualization:
 - Created box plots and count plots to identify outliers and understand distributions.
 - Categorized customers into Age_Group bins to facilitate group-based analysis.
 - Analyzed the count and distribution of loan defaults by various attributes.
+
 ## 2. Feature Engineering
-- Derived new features, such as Age_Group and Risk_Level, to enhance predictive capabilities:
+Derived new features, such as Age_Group and Risk_Level, to enhance predictive capabilities:
 - Risk_Level: Categorized loans into "Low", "Medium", and "High" risk based on interest rates.
-- One-hot encoded categorical variables for modeling compatibility.
+One-hot encoded categorical variables for modeling compatibility.
+
 ## 3. Data Analysis
 Default Rate Analysis:
 - Examined default rates across key dimensions such as Age_Group, Home Ownership, and Risk_Level.
 - Visualized these relationships using bar plots to provide actionable insights.
 Correlation Analysis:
 - Used a heatmap to evaluate relationships between numerical features.
+  
 ## 4. Predictive Modeling
 Implemented three machine learning models for predicting loan default:
 - Logistic Regression
@@ -33,6 +36,7 @@ Model Evaluation:
 = Split the data into training and testing sets (70%/30%).
 - Evaluated models using ROC AUC scores, confusion matrices, and classification reports.
 - Gradient Boosting demonstrated strong predictive performance, with feature importance analysis conducted to identify the most influential predictors.
+  
 ## 5. Key Findings
 - Identified significant features affecting loan defaults (e.g., interest rates, employment length, and loan intent).
 - High-risk loans, determined by interest rate, had a markedly higher likelihood of default.
