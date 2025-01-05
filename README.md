@@ -37,7 +37,7 @@ Model Evaluation:
 - High-risk loans, determined by interest rate, had a markedly higher likelihood of default.
 - The relationship between customer demographics, homeownership, and default risk was visualized and quantified.
 
-##Technologies and Tools
+## Technologies and Tools
 Languages: Python
 Libraries:
 - Data Manipulation: pandas, numpy
