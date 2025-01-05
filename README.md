@@ -18,6 +18,7 @@ Visualization:
 ## 2. Feature Engineering
 Derived new features, such as Age_Group and Risk_Level, to enhance predictive capabilities:
 - Risk_Level: Categorized loans into "Low", "Medium", and "High" risk based on interest rates.
+  
 One-hot encoded categorical variables for modeling compatibility.
 
 ## 3. Data Analysis
