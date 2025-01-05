@@ -33,8 +33,9 @@ Implemented three machine learning models for predicting loan default:
 - Logistic Regression
 - Random Forest Classifier
 - Gradient Boosting Classifier
+
 Model Evaluation:
-= Split the data into training and testing sets (70%/30%).
+- Split the data into training and testing sets (70%/30%).
 - Evaluated models using ROC AUC scores, confusion matrices, and classification reports.
 - Gradient Boosting demonstrated strong predictive performance, with feature importance analysis conducted to identify the most influential predictors.
   
